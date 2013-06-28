@@ -1,3 +1,9 @@
+**DEPRECATION NOTICE**: 
+
+`vagrant-apt_cache` is no longer maintained. For additional features and Vagrant 1.1+ compatibility, 
+consider using [vagrant-cachier](https://github.com/fgrehm/vagrant-cachier).
+
+
 # Vagrant apt-cache
 
 Share a common package cache among all VM instances. This gem will share a directory from the host to the `/var/cache/apt` on guest VMs to avoid downloading already-downloaded packages when building VMs.
